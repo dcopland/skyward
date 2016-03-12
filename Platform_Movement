@@ -1,0 +1,12 @@
+//THIS GOES ON THE PLATFORM!
+
+function Update (){
+    transform.position.y = Mathf.PingPong(Time.time *7,22) +18.98;
+}
+
+//transform.position.y = Mathf.PingPong(Time.time *n,i) y;
+
+//*n indicates how fast it should move
+// i indicates how many "squares" it will move
+// y is the starting position
+// to move it vertical/horizontal, just change the y or x at the beginning in transform.position.HERE
